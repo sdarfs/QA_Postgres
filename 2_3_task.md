@@ -29,6 +29,8 @@ academy=# \d Students
 academy=# CREATE TABLE Courses(c_no SERIAL PRIMARY KEY, title VARCHAR(200) NOT NULL UNIQUE, hours INTEGER NOT NULL CHECK (hours >0));
 CREATE TABLE
 
+### Вывод созданной таблицы
+
 
 academy-# \d Courses
 
@@ -42,6 +44,10 @@ academy-# \d Courses
 
 academy=# CREATE TABLE Exams (s_id INTEGER NOT NULL,c_no INTEGER NOT NULL,score INTEGER,PRIMARY KEY (s_id, c_no),FOREIGN KEY (s_id) REFERENCES Students(s_id) ON DELETE CASCADE,
 academy(# FOREIGN KEY (c_no) REFERENCES Courses(c_no) ON DELETE CASCADE,CHECK (score >= 0 AND score <= 100));
+
+
+### Вывод созданной таблицы
+
 
 academy=# \d Exams
 
