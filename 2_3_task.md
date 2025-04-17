@@ -9,7 +9,7 @@ postgres=#  \c academy
 - start_year год начала(поэтому integer, хранить как дату полную необязательно)
 
 academy=# CREATE TABLE IF NOT EXISTS Students (s_id SERIAL PRIMARY KEY, name VARCHAR(50) NOT NULL, start_year INTEGER NOT NULL);
-CREATE TABLE
+
 
 academy=# \d
 
@@ -27,7 +27,7 @@ academy=# \d Students
 - hours количество часов, имеется проверка, чтобы значение было больше 0
 
 academy=# CREATE TABLE Courses(c_no SERIAL PRIMARY KEY, title VARCHAR(200) NOT NULL UNIQUE, hours INTEGER NOT NULL CHECK (hours >0));
-CREATE TABLE
+
 
 ### Вывод созданной таблицы
 
