@@ -15,9 +15,14 @@ SELECT * FROM Courses;
 <img width="1163" alt="image" src="https://github.com/user-attachments/assets/5be4b6e5-88dc-47f1-b994-bfda2481d3f7" />
 
 ## Добавление в таблицу Exams
-INSERT INTO Exams (s_id, c_no, score) VALUES (1, 1, 65), (1, 2, 82), (1, 3, 100), (2, 1, 100), (2, 2, 90), (2,3, 100), (4,1,25), (4,2, NULL),(4, 3, 50), (3,3,100), (3,4, 99), (3,5,85), 
-(5,3,100),(5,4,100),(5,5,100),(6,3,NULL), (6,4, NULL), (6,5, NULL)  ;
+INSERT INTO Exams (s_id, c_no, score) VALUES (1, 1, 65), (1, 2, 82), (1, 3, 100), (2, 1, 100), (2, 2, 90), (2,3, 100), (4,1,25),(4, 3, 50), (3,3,100), (3,4, 99), (3,5,85), (5,3,100),(5,4,100),(5,5,100) ;
+
+
+<img width="787" alt="image" src="https://github.com/user-attachments/assets/b7d809d9-b1f4-4a40-989d-34674cb215e8" />
 
 SELECT * FROM Exams;
 
-<img width="1265" alt="image" src="https://github.com/user-attachments/assets/f6c4fe77-cb75-4600-bef2-bce304859fbf" />
+
+<img width="266" alt="image" src="https://github.com/user-attachments/assets/41c6631a-e4bb-40e5-949f-26590e7dd80b" />
+
+
